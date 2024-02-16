@@ -1,0 +1,6 @@
+directive @exampleDirective on FIELD_DEFINITION
+directive @exampleDirective on FIELD_DEFINITION
+
+type Query {
+    hello: String @exampleDirective
+}
